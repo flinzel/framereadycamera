@@ -1,6 +1,6 @@
-# FrameReady Kamera GitHub Pages Legal Site
+# FrameReady Camera GitHub Pages Legal Site
 
-Static legal website for FrameReady Kamera / FrameReady.
+Static legal website for FrameReady Camera. The App Store Connect name is FrameReady Camera. The iPhone home screen icon name is FrameReady.
 
 ## Files
 
@@ -15,14 +15,14 @@ Static legal website for FrameReady Kamera / FrameReady.
 
 ## Recommended GitHub Pages URL
 
-`https://flinzel.github.io/safeframecamera/`
+`https://flinzel.github.io/framereadycamera/`
 
 ## App links
 
-- Privacy: `https://flinzel.github.io/safeframecamera/privacy.html`
-- Terms: `https://flinzel.github.io/safeframecamera/terms.html`
-- Impressum: `https://flinzel.github.io/safeframecamera/imprint.html`
-- Support: `https://flinzel.github.io/safeframecamera/support.html`
+- Privacy: `https://flinzel.github.io/framereadycamera/privacy.html`
+- Terms: `https://flinzel.github.io/framereadycamera/terms.html`
+- Impressum: `https://flinzel.github.io/framereadycamera/imprint.html`
+- Support: `https://flinzel.github.io/framereadycamera/support.html`
 
 ## Release note
 

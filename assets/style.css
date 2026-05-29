@@ -150,3 +150,47 @@ table.privacy-data td { overflow-wrap: anywhere; word-break: normal; }
   .nav-links a { padding: 7px 9px; font-size: 13px; }
   .legal-card h1 { font-size: 36px; }
 }
+
+/* v4 app name and iPhone privacy layout correction */
+@media (max-width: 720px) {
+  .legal-card { width: 100%; max-width: 100%; box-sizing: border-box; }
+  .table-wrap { width: 100%; max-width: 100%; overflow: visible; }
+  table.privacy-data,
+  table.privacy-data thead,
+  table.privacy-data tbody,
+  table.privacy-data tr,
+  table.privacy-data th,
+  table.privacy-data td {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box;
+  }
+  table.privacy-data tr {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    padding: 16px;
+  }
+  table.privacy-data td {
+    display: block;
+    overflow-wrap: break-word;
+    word-break: normal;
+    hyphens: auto;
+  }
+  table.privacy-data td::before {
+    width: auto;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow-wrap: normal;
+    word-break: keep-all;
+    letter-spacing: .12em;
+  }
+}
+@media (max-width: 430px) {
+  main.document-layout { padding-left: 14px; padding-right: 14px; }
+  .legal-card { padding: 22px 18px; }
+  table.privacy-data tr { padding: 15px 14px; border-radius: 20px; }
+  table.privacy-data td { font-size: 15.5px; line-height: 1.56; }
+  table.privacy-data td::before { font-size: 10px; }
+}
