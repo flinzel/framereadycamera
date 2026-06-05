@@ -4,31 +4,37 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy Policy – FrameReady Camera</title>
-  <meta name="description" content="Privacy Policy for FrameReady Camera, whose iPhone icon is shown as FrameReady.">
+  <meta name="description" content="Privacy Policy for FrameReady Camera, including local Frame Assist, face data handling, storage, sharing and retention information.">
   <meta name="robots" content="index,follow">
   <meta property="og:title" content="Privacy Policy – FrameReady Camera">
-  <meta property="og:description" content="Privacy Policy for FrameReady Camera, whose iPhone icon is shown as FrameReady.">
+  <meta property="og:description" content="Privacy Policy for FrameReady Camera, including local Frame Assist, face data handling, storage, sharing and retention information.">
   <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/app-icon-512.png">
   <meta name="theme-color" content="#061017">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/app-icon-192.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <nav class="nav" aria-label="Main navigation">
-      <a class="brand" href="index.html" aria-label="FrameReady Camera legal home"><span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 28 28" fill="none" role="img"><rect x="4" y="5" width="15" height="18" rx="5" stroke="currentColor" stroke-width="2"/><path d="M19 11l4-2.4v10.8L19 17" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9 14h7M12.5 10.5v7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><span><strong>FrameReady Camera</strong><small>Legal & Support</small></span></a>
+      <a class="brand" href="index.html" aria-label="FrameReady Camera legal home">
+        <img class="logo-img" src="assets/app-icon-64.png" alt="" width="48" height="48">
+        <span><strong>FrameReady Camera</strong><small>Legal & Support</small></span>
+      </a>
       <div class="nav-links"><a class="" href="index.html">Home</a><a class="active" href="privacy.html">Privacy</a><a class="" href="terms.html">Terms</a><a class="" href="imprint.html">Impressum</a><a class="" href="support.html">Support</a></div>
     </nav>
   </header>
 
   <main id="main" class="document-layout">
-    <aside class="toc glass"><p>Privacy</p><a href="#short">Short version</a><a href="#controller">Controller</a><a href="#data">Data processed</a><a href="#permissions">Permissions</a><a href="#rights">Your rights</a><a href="#third-parties">Third parties</a></aside>
+    <aside class="toc glass"><p>Privacy</p><a href="#short">Short version</a><a href="#controller">Controller</a><a href="#face-data">Face Data</a><a href="#data">Data processed</a><a href="#retention">Retention</a><a href="#rights">Your rights</a><a href="#third-parties">Third parties</a></aside>
     <article class="legal-card">
-      <p class="eyebrow">Privacy Policy · Last updated 29 May 2026</p>
+      <p class="eyebrow">Privacy Policy · Last updated 5 June 2026</p>
       <h1>Privacy Policy</h1>
       <p class="lede">This Privacy Policy explains how FrameReady Camera, whose iPhone icon is shown as FrameReady, handles information in connection with the iOS app, support communication and these GitHub Pages legal pages.</p>
-      <div id="short" class="callout success"><strong>Short version:</strong> FrameReady Camera is designed as a local-first creator camera app. Camera preview, recordings, thumbnails, cover frames, scripts, project data and settings are intended to stay on your device unless you choose to export, share, save to Photos or contact support.</div>
+      <div id="short" class="callout success"><strong>Short version:</strong> FrameReady Camera is designed as a local-first creator camera app. Camera preview, face position checks, recordings, thumbnails, cover frames, scripts, project data and settings are intended to stay on your device unless you choose to export, share, save to Photos or contact support.</div>
 
       <h2 id="controller">Controller / Verantwortlicher</h2>
       <p>Florian Kintzel<br>Rohlsdorfer Weg 49b<br>23689 Techau<br>Germany<br>Email: <a href="mailto:F.Kintzel@gmail.com">F.Kintzel@gmail.com</a></p>
@@ -36,9 +42,17 @@
       <h2>Scope</h2>
       <p>This policy covers the FrameReady Camera iOS app, support emails and the legal pages hosted for the app. Apple processes App Store downloads, subscriptions, in-app purchases, refunds and related account data under Apple’s own terms and privacy framework.</p>
 
+      <h2 id="face-data">Face Data and Frame Assist</h2>
+      <div class="callout warning"><strong>App Review note:</strong> This section describes the app’s face-related processing, use, storage, sharing and retention.</div>
+      <p>FrameReady Camera uses on-device face detection only to estimate the geometric position of a face in the live camera preview. This helps the app show framing hints, for example whether a face is inside the selected safe area or overlaps with captions, controls, the teleprompter or other layout guides.</p>
+      <p>FrameReady Camera does not identify a person, does not create a face template or faceprint, does not compare faces, and does not infer age, emotion, health, beauty, ethnicity, identity, personality or other personal attributes.</p>
+      <p>Face detection results are processed locally on the device and temporarily in memory. They are not uploaded to our servers, not sold, not shared with third parties, and not used for advertising or tracking.</p>
+      <p>If the user records a video, the video file is stored locally on the device or saved/exported by the user to Photos, Files or the iOS share sheet. Local recordings remain on the device until the user deletes them, deletes the related project, removes the app or exports them using iOS system features.</p>
+
       <h2 id="data">What the app processes</h2>
       <div class="table-wrap"><table class="privacy-data"><thead><tr><th>Category</th><th>Examples</th><th>Where it is processed</th></tr></thead><tbody>
         <tr><td data-label="Category">Camera preview</td><td data-label="Examples">Live camera image used for framing areas, face placement guidance and platform-safe zones.</td><td data-label="Processing">On your device. The provider does not receive the preview.</td></tr>
+        <tr><td data-label="Category">Temporary face position data</td><td data-label="Examples">Geometric face position used to show Frame Assist hints, such as whether a face is inside the safe area or too close to captions, controls or the teleprompter.</td><td data-label="Processing">On your device, temporarily in memory. Not uploaded, not shared and not retained as a face template.</td></tr>
         <tr><td data-label="Category">Microphone audio</td><td data-label="Examples">Audio captured when you record video with sound.</td><td data-label="Processing">On your device, inside the local recording unless you export or share it.</td></tr>
         <tr><td data-label="Category">Video clips and takes</td><td data-label="Examples">Original recordings, take metadata, duration, timestamps, selected best take and local project links.</td><td data-label="Processing">On your device. Export or share actions are user controlled.</td></tr>
         <tr><td data-label="Category">Thumbnails and cover frames</td><td data-label="Examples">Preview images, selected cover frames and related timestamps.</td><td data-label="Processing">On your device, and in Photos only if you choose to save/export.</td></tr>
@@ -48,11 +62,8 @@
         <tr><td data-label="Category">Website access data</td><td data-label="Examples">Technically necessary access data may be processed by GitHub Pages as host of these pages.</td><td data-label="Processing">GitHub infrastructure.</td></tr>
       </tbody></table></div>
 
-      <h2>Camera, face and biometric note</h2>
-      <p>FrameReady Camera may show local framing assistance around a face or relevant content area. In the current version, this is intended only for geometric placement support. It is not designed for biometric identification, face recognition, identity verification, surveillance, emotional assessment, beauty assessment, health assessment or profiling.</p>
-
       <h2>What we do not use in the current version</h2>
-      <ul class="check-list"><li>No user account required.</li><li>No provider-operated cloud sync.</li><li>No provider server upload of private video clips, scripts, thumbnails or cover frames.</li><li>No third-party analytics SDK.</li><li>No crash reporting SDK.</li><li>No advertising tracking.</li><li>No sale of personal data.</li></ul>
+      <ul class="check-list"><li>No user account required.</li><li>No provider-operated cloud sync.</li><li>No provider server upload of private video clips, scripts, thumbnails, cover frames or face position data.</li><li>No third-party analytics SDK.</li><li>No crash reporting SDK.</li><li>No advertising tracking.</li><li>No sale of personal data.</li><li>No biometric identification or face recognition.</li></ul>
 
       <h2>Legal bases under GDPR</h2>
       <ul><li>Contract performance or pre-contract steps for app functionality, Premium access and support, Art. 6(1)(b) GDPR.</li><li>Legal obligations where records must be kept, Art. 6(1)(c) GDPR.</li><li>Legitimate interests for website security, support handling, abuse prevention and reliable operation, Art. 6(1)(f) GDPR.</li><li>Consent where a feature or system permission explicitly asks for it, Art. 6(1)(a) GDPR.</li></ul>
@@ -60,8 +71,8 @@
       <h2 id="permissions">iOS permissions</h2>
       <p>The app may request access to camera, microphone and Photos depending on the feature you use. You can change permissions in iOS Settings. If you deny a permission, the related feature may not work.</p>
 
-      <h2>Storage and deletion</h2>
-      <p>Local app data remains on your device unless you delete it, delete the app, use an in-app delete/reset option where available, or share/export it yourself. Videos and images saved to Apple Photos must be managed in the Photos app. Support emails are kept only as long as needed to answer and document the request, subject to legal retention duties.</p>
+      <h2 id="retention">Storage, retention and deletion</h2>
+      <p>Temporary face detection results used by Frame Assist are processed in memory during the live camera session and are not retained as face templates or uploaded to the provider. Local app data remains on your device unless you delete it, delete the app, use an in-app delete/reset option where available, or share/export it yourself. Videos and images saved to Apple Photos must be managed in the Photos app. Support emails are kept only as long as needed to answer and document the request, subject to legal retention duties.</p>
 
       <h2>Children</h2>
       <p>The app is intended as a creator productivity tool. It is not specifically directed at children. The app does not create user accounts or knowingly collect children’s personal data for provider-operated services. Parents or guardians should supervise recording and publishing decisions for minors.</p>
@@ -78,14 +89,15 @@
       <p>The App Store privacy label and this policy must match the actual app build. If future versions add analytics, cloud sync, crash reporting, accounts, advertising, external AI services or other processing, this policy and App Store privacy information must be updated before release.</p>
 
       <h2>Deutsch, Datenschutzhinweis kurz gefasst</h2>
-      <p>FrameReady Camera ist lokal gedacht und wird im App Store als FrameReady Camera geführt; auf dem iPhone wird das App Symbol als FrameReady angezeigt. Kamera-Vorschau, Videoaufnahmen, Projektinformationen, Skripte, Vorschaubilder und Coverbilder sollen grundsätzlich auf deinem Gerät bleiben. Es gibt in der aktuellen Version keinen Account, keinen Anbieter-Cloud-Sync, keine Analytics, kein Crash SDK und kein Werbetracking.</p>
-      <p>Wenn du Support kontaktierst, verarbeiten wir deine E-Mail und den Inhalt deiner Nachricht zur Bearbeitung deiner Anfrage. Käufe, Abos, Kündigungen und Erstattungen laufen über Apple. Kontakt: <a href="mailto:F.Kintzel@gmail.com">F.Kintzel@gmail.com</a>.</p>
+      <p>FrameReady Camera ist lokal gedacht und wird im App Store als FrameReady Camera geführt. Auf dem iPhone wird das App Symbol als FrameReady angezeigt. Kamera-Vorschau, Face Assist, Videoaufnahmen, Projektinformationen, Skripte, Vorschaubilder und Coverbilder sollen grundsätzlich auf deinem Gerät bleiben.</p>
+      <p>Face Assist verarbeitet die Gesichtserkennung nur lokal auf dem Gerät und nur zur geometrischen Positionierung im Kamerabild. Die App identifiziert keine Personen, erstellt keinen Faceprint, bewertet kein Gesicht und lädt keine Gesichtsdaten auf Anbieter-Server hoch. Es gibt in der aktuellen Version keinen Account, keinen Anbieter-Cloud-Sync, keine Analytics, kein Crash SDK und kein Werbetracking.</p>
+      <p>Wenn du Support kontaktierst, verarbeiten wir deine E-Mail und den Inhalt deiner Nachricht zur Bearbeitung deiner Anfrage. Käufe, Abos, Kündigungen und Erstattungen laufen über Apple.</p>
     </article>
   </main>
 
   <footer class="footer">
     <div class="footer-inner">
-      <div><strong>FrameReady Camera</strong><span>Local-first creator camera · © 2026 Florian Kintzel</span></div>
+      <div class="footer-brand"><img class="footer-logo" src="assets/app-icon-64.png" alt="" width="34" height="34"><div><strong>FrameReady Camera</strong><span>Local-first creator camera · © 2026 Florian Kintzel</span></div></div>
       <div class="footer-links"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="imprint.html">Impressum</a><a href="support.html">Support</a></div>
     </div>
   </footer>

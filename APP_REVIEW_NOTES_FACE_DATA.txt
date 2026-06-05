@@ -1,0 +1,16 @@
+Face data explanation for App Review
+
+FrameReady Camera uses on-device face detection only to estimate the geometric position of a face in the live camera preview. This is used only for framing assistance, for example to help keep the face inside safe areas and away from captions, app controls, or the teleprompter.
+
+The app does not identify users, does not create a face template or faceprint, does not compare faces, and does not infer age, emotion, health, beauty, ethnicity, identity, personality, or other personal attributes.
+
+Face detection results are processed locally on the device and temporarily in memory. They are not uploaded to our servers, not sold, not shared with third parties, and not used for advertising or tracking.
+
+If a user records a video, the video file is stored locally on the device or saved/exported by the user to Photos, Files, or the iOS share sheet. Local recordings remain on the device until the user deletes them, deletes the related project, removes the app, or exports them using iOS system features.
+
+This is explained in the Privacy Policy under the section “Face Data and Frame Assist”:
+https://flinzel.github.io/framereadycamera/privacy.html#face-data
+
+Terms of Use / EULA:
+FrameReady Camera uses Apple’s standard End User License Agreement (EULA), linked from the Terms page:
+https://flinzel.github.io/framereadycamera/terms.html

@@ -11,6 +11,11 @@ Static legal website for FrameReady Camera. The App Store Connect name is FrameR
 - `support.html`
 - `404.html`
 - `assets/style.css`
+- `assets/app-icon.png`
+- `assets/app-icon-512.png`
+- `assets/app-icon-192.png`
+- `assets/apple-touch-icon.png`
+- `assets/favicon-32.png`
 - `robots.txt`
 
 ## Recommended GitHub Pages URL
@@ -24,8 +29,10 @@ Static legal website for FrameReady Camera. The App Store Connect name is FrameR
 - Impressum: `https://flinzel.github.io/framereadycamera/imprint.html`
 - Support: `https://flinzel.github.io/framereadycamera/support.html`
 
-## Release note
+## Phase 2 compliance patch
 
-The pages are carefully drafted for an iOS app operated from Germany, with Apple StoreKit subscriptions, local-first camera processing, no provider cloud sync, no analytics SDK, no crash reporting SDK and no advertising tracking in the current app design.
+Last updated: 5 June 2026
+
+This version adds the real app icon to the legal site, improves the Terms/EULA page, and adds a dedicated `Face Data and Frame Assist` section to the Privacy Policy. The wording is designed to match the current local-first app design: no user account, no provider cloud sync, no analytics SDK, no crash reporting SDK, no advertising tracking, no provider upload of private videos, scripts or face position data.
 
 Before final App Store release, perform a final legal check and ensure the App Store privacy labels match the actual app build.
