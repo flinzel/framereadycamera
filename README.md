@@ -36,3 +36,8 @@ Last updated: 5 June 2026
 This version adds the real app icon to the legal site, improves the Terms/EULA page, and adds a dedicated `Face Data and Frame Assist` section to the Privacy Policy. The wording is designed to match the current local-first app design: no user account, no provider cloud sync, no analytics SDK, no crash reporting SDK, no advertising tracking, no provider upload of private videos, scripts or face position data.
 
 Before final App Store release, perform a final legal check and ensure the App Store privacy labels match the actual app build.
+
+
+## Visual refinement
+
+The home-page hero no longer uses the app icon as an oversized standalone graphic. The icon is now used as a controlled brand element inside a compact trust card, while navigation, footer, favicon and touch icons remain unchanged.

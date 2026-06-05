@@ -74,3 +74,8 @@ In App Review Notes, point Apple to:
 - Terms/EULA: `https://flinzel.github.io/framereadycamera/terms.html`
 
 The exact face data quote can be copied from `APP_REVIEW_NOTES_FACE_DATA.txt`.
+
+
+## Visual refinement
+
+The home-page hero no longer uses the app icon as an oversized standalone graphic. The icon is now used as a controlled brand element inside a compact trust card, while navigation, footer, favicon and touch icons remain unchanged.
